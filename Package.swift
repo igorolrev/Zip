@@ -1,3 +1,4 @@
+// swift-tools-version:5.1
 
 import PackageDescription
 
@@ -9,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "Zip",
-            targets: ["Zip"]),
+            targets: ["Zip"])
     ],
     targets: [
         .target(
